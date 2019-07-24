@@ -1,2 +1,2 @@
 # XamarinFormsProblem
-A simple demonstration of ImageButton vector icon problem when reusing the same instance of page.
+A simple demonstration of android:colorControlHighlight overlay problem when Entry field is unfocused with a KEYCODE event.
