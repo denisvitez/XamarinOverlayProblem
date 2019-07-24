@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout Padding="10, 20, 10, 10">
+            <StackLayout x:Name="ServerUrlWrapper" Orientation="Vertical">
+                <Label x:Name="ServerUrl" Text="URL" FontSize="15" FontAttributes="Bold"/>
+                <Entry x:Name="ServerUrlValue" Text="" FontSize="15"/>
+            </StackLayout>
+            <StackLayout x:Name="UsernameWrapper" Orientation="Vertical">
+                <Label x:Name="Username" Text="Username" FontSize="15" FontAttributes="Bold"/>
+                <Entry x:Name="UsernameValue" Text="" FontSize="15"/>
+            </StackLayout>
+            <StackLayout x:Name="PasswordWrapper" Orientation="Vertical">
+                <Label x:Name="Password" Text="Password" FontSize="15" FontAttributes="Bold"/>
+                <Entry x:Name="PasswordValue" Text="" FontSize="15" IsPassword="True"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
